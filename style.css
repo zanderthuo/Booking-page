@@ -1,0 +1,581 @@
+.card {
+  padding: 6px;
+  border: none;
+}
+
+#map-container {
+  position: relative;
+  height: 180px;
+  width:600px;
+}
+
+#map {
+  position: relative;
+  height: inherit; 
+  width: inherit;
+}
+
+/* Tabled Portrait */
+
+/* @media screen and  (max-width: 959px) {
+
+  .container-fluid{
+    width: 100%;
+    height: 100%;
+  }  
+  .login-block {
+    width: 100%;
+    height: 100%;
+  }
+  #primary { width:100%; }
+
+  #secondary { width:100%; margin:0; border:none; }
+
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+ 
+/*  */
+
+
+img { max-width: 100%; }
+
+/* iframe {
+width: 150%;
+} */
+
+.signup__overlay {
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.76); */
+    /* background-color: rgba(0, 0, 0, 0.33); */
+  }
+  
+
+  
+  .login-block {
+    width: 100%;
+    /* background-color: ; */
+    background: linear-gradient(to bottom, #dddbd5, #dddbd5);
+    box-shadow: 0 0.1875rem 1.5rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+  width: 960px;
+  -webkit-box-shadow: 0 0.1875rem 1.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.1875rem 1.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.375rem;
+  margin-bottom: 5%;
+  /* background-color: aqua; */
+  
+  }
+  
+  .carousel-inner {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .carousel-caption {
+    text-align: left;
+    left: 5%;
+  }
+  
+  label {
+    color: white;
+  }
+  .login-sec {
+    padding: 50px 30px;
+    position: relative;
+    background-color: #05A1D1;
+  }
+  
+  .login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .login-sec .copy-text i {
+    color: $vilotecolor;
+  }
+  
+  .login-sec .copy-text a {
+    color: $vilotecolor;
+  }
+  
+  .login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: $vilotecolor;
+  }
+  
+  .login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: $vilotecolor;
+    display: block;
+    margin-top: 8px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  
+  .banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+  }
+  
+  .banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .banner-text h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+  }
+  
+  .banner-text p {
+    color: #fff;
+  }
+  
+  p{
+    color: #fff;
+  }
+  
+  card text-centercard text-center
+  
+  /* login start */
+  
+  .container-login100-form-btn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 5%;
+  }
+  
+  .login100-form {
+    width: 100%;
+  }
+  
+  
+  .validate-input {
+    position: relative;
+  }
+  
+  .wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 10%;
+  }
+  
+  .label-input100 {
+  
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    padding-left: 7px;
+  }
+  
+  textarea:focus,
+  input:focus {
+    border-color: transparent !important;
+  }
+  
+  .input100:focus+.focus-input100::before {
+    width: 100%;
+  }
+  
+  
+  
+  .input100 {
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    padding: 0 7px 0 43px;
+  }
+  
+  .focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #7f7f7f;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .focus-input100::after {
+    font-family: "FontAwesome";
+    content: "\f007";
+    color: #adadad;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: calc(100% - 20px);
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-top: 3px;
+  }
+  
+  .focus-input100.password::after {
+    font-family: "FontAwesome";
+    content: "\f023";
+    color: #adadad;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: calc(100% - 20px);
+    bottom: 0;
+    left: 0;
+    padding-left: 13px;
+    padding-top: 3px;
+  }
+  
+  input {
+    outline: none;
+    border: none;
+  }
+  
+  
+  
+  .flex-c-m {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  
+  .login100-social-item {
+    font-size: 12px;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .bg1 {
+    background-color: #3b5998;
+  }
+  
+  
+  .bg3 {
+    background-color: #ea4335;
+  }
+
+  iframe {
+    width: 130%;
+    height: 950px;
+  }
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    iframe {
+      width:100%;
+      height:950px;
+      padding : 0px;
+    }
+    }
+ 
+    
+  /* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  iframe {
+    width:130%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+  iframe {
+    width:130%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+  iframe {
+    width:130%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  /**********
+  iPad 3
+  **********/
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  iframe {
+    width:130%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  iframe {
+    width:130%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone 4 ----------- */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone 5 ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone 6, 7, 8 ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone 6+, 7+, 8+ ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone X ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* iPhone XS Max, XR ----------- */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* Samsung Galaxy S3 ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* Samsung Galaxy S4 ----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  /* Samsung Galaxy S5 ----------- */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }
+  
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  iframe {
+    width:100%;
+    height:950px;
+    padding : 0px;
+  }
+  }  

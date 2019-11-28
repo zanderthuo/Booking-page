@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <!-- maximum-scale=1,user-scalable=no -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous"> -->
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <title>Search</title>
+    
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <script src="https://kit.fontawesome.com/8c1b4ac527.js" crossorigin="anonymous"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.css"></script>
+
+  </head>
+  <body>
+    <section class="login-block">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-3 login-sec">
+                  
+                <form>
+                  <div id="b">
+                      <div class="form-group">
+                        <label for="inputAddress">Origin</label>
+                        <input id="search_input" type="text" class="form-control" id="inputAddress" placeholder="Enter Pick-up Location">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Destination</label>
+                        <input id="search_input" type="text" class="form-control" id="inputAddress" placeholder="Enter Destination">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Destination</label>
+                        <input id="search_input" type="text" class="form-control" id="inputAddress" placeholder="Enter Destination">
+                      </div>
+                  </div>
+
+                  <button type="button" class="fa fa-plus btn btn-warning"> Add Stop</button> 
+                  
+                  <button type="button" class="btn btn-dark">Reset</button>
+
+                  <div class="form-group">
+                    <label for="inputAddress2">Contacts</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Enter Sender's mobile">
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Delivery Instructions(Visible to Driver)</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+
+                    <div class="block">
+                        <p>Package Size and Vehicle</p>
+                      <ul class="nav nav-tabs nav-tabs-alt js-tabs-enabled" role="tablist">
+                        <!--
+                            color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                        -->
+                        <li class="nav-item" data-toggle="tabs" role="tablist">
+                            <a class="nav-link active" href="#gift" role="tab" data-toggle="tab">
+                              <i class="fas fa-gift"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" role="tab" data-toggle="tab">
+                              <i class="fas fa-couch" input = "medium"></i>
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">
+                                <i type="radio" class="fa fa-truck"></i>
+                                
+                            </a>
+                        </li>
+                      </ul> 
+                    </div>
+                    
+                    
+                    <br>
+              
+                  <button type="submit" class="btn btn-primary btn-block">Order Now</button>
+                </form>
+  
+                  <div class="copy-text">Created with
+                      <i class="fa fa-heart"></i> by
+                      <a href="http://getboda.co.ke">GetBoda</a>
+                  </div>
+              </div>
+              <div class="col-md-7">   
+                <div class="signup__overlay"></div>          
+                  <div class="banner">
+                      <iframe
+                    
+                      frameborder="0" style="border:4"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBtUVPQCs0ltEitLr3xFU05GHXIEXiVTqs&q=Kenya,Nairobi+Westlands" allowfullscreen>
+                    </iframe>    
+                  </div>
+
+              </div>
+          </div>
+          
+        </div>
+  </section>
+
+
+    <!-- Optional JavaScript -->
+    
+    <!-- <script src="https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum%20Kenya&inputtype=textquery&fields=photos,formatted_address,name,rating,opening_hours,geometry&key=AIzaSyBtUVPQCs0ltEitLr3xFU05GHXIEXiVTqs"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script> -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBtUVPQCs0ltEitLr3xFU05GHXIEXiVTqs"></script><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBtUVPQCs0ltEitLr3xFU05GHXIEXiVTqs"></script>
+  </body>
+</html>
